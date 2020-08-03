@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORINFO</title>
+    <link rel="stylesheet" href="../Corinfo/assets/styles/style desktop.css">
+    <link rel="stylesheet" href="../Corinfo/assets/styles/style mobile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar-covid">
+            <ul class="container topnav" id="myTopnav">
+                <li class="linenav" id="corinfoline-nav"><a id="list-nav" href="#Corinfo"><span id="corinfo-tag">CORINFO</span></a></li>
+                <li class="linenav prevention"><a id="list-navprevention" href="#Prevention">PREVENTION</a></li>
+                <li class="linenav"><a id="list-nav" href="#Faq">FAQ</a></li>
+                <li class="linenav"><a id="list-nav" href="#Symptoms">Symptoms</a></li>
+                <li class="linenav"><a id="list-nav" href="#About">About</a></li>
+                <li class="linenav active"><a id="list-nav" href="#Home">Home</a></li>
+                <a href="#" class="icon" onclick=mobileNav()>
+                    <i class="fa fa-bars fa-2x"></i>
+                  </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article>
+                <section class="banner wrapper">
+                    <div class="container">
+                        <div class="banner section-content">
+                            <div class="banner-description">
+                                <h1>CORONA COVID-19 VIRUS</h1>
+                                <p id="bandesc-p">Coronavirus adalah virus yang kabarnya pertama kali ditemukan di Wuhan, China. World Health Organization (WHO) menyatakan Coronavirus sebagai pandemi pada
+                                    tanggal 11 maret 2020.
+                                </p>
+                                <button class="pink-button-rounded" type="button">HOW TO PROTECT</button>
+                            </div>
+                            <img class="center people-contributor" src="../Corinfo/assets/images/people-covid-contributor.svg">
+                        </div>
+                    </div>
+                </section>
+                <section class="victim wrapper">
+                    <div class="container">
+                        <h2 class="desc-victim">Jumlah Angka Penyebaran COVID-19</h2>
+                        <span><p class="desc-victim" id="date"></span></p> </p>
+                        <div class="victim section-content">
+                            <div class="victim-content">
+                                <p class="victim-desctext">Active Confirmed</p>
+                                <h2 style="color: #F3CD6D;"><span class='num'>37.037</span></h2>
+                            </div>
+                            <div class="victim-content">
+                                <p class="victim-desctext">Recovered</p>
+                                <h2 style="color: #91D85D;"><span class='num'>50.255</span></h2>
+                            </div>
+                            <div class="victim-content">
+                                <p class="victim-desctext">Death</p>
+                                <h2 style="color: #e74a4a;"><span class='num'>4.459</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about wrapper">
+                    <div class="container">
+                        <div class="about section-content">
+                            <img id="medic" src="../Corinfo/assets/images/undraw_medical_research_qg4d.svg">
+                            <div class="list-about">
+                                <div class="list-aboutcontent">
+                                    <h3 style="color: #FF3372;">ABOUT THE DISEASE</h3>
+                                    <h1 style="color: #2b4191;">COVID-19</h1>
+                                    <i id="check-icon" class="fa fa-check" aria-hidden="true"></i>
+                                    <p class="about desc">Penderita <span>COVID-19</span> biasanya mengalami sakit batuk, demam yang tinggi atau gangguan pernapasan</p>
+                                </div>
+                                <div class="list-aboutcontent">
+                                    <i id="check-icon" class="fa fa-check" aria-hidden="true"></i>
+                                    <p class="about desc"><span>COVID-19</span> dapat menyebabkan kematian jangka pendek jika tertular.</p>
+                                </div>
+                                <div class="list-aboutcontent">
+                                    <i id="check-icon" class="fa fa-check" aria-hidden="true"></i>
+                                    <p class="about desc">Bentuk penyebaran <span>COVID-19</span> biasanya melalui kontak fisik dengan orang lain.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="symptoms wrapper">
+                    <div class="container">
+                        <div class="symptoms section-content">
+                            <div id="header-symptoms">
+                                <h3 style="color: #FF3372;">Symptoms</h3>
+                                <h1 style="color: #2b4191;">COVID-19 Symptoms</h1>
+                                <p>COVID-19 dapat menyebabkan berbagai macam penularan penyakit seperti ganggungan pernapasan, batuk, dll</p>
+                            </div>
+                            <div class="content-symptoms">
+                                <div class="list-symptoms">
+                                    <div id="imgstp-92px"></div>
+                                    <h3>Demam</h3>
+                                    <p id="desc-symptomps">Demam yang dapat mengakibatkan suhu tubuh diatas 38 derajat celcius.</p>
+                                </div>
+                                <div class="list-symptoms">
+                                    <div id="imgstp-92px"></div>
+                                    <h3>Batuk</h3>
+                                    <p id="desc-symptomps">Penderita biasanya mengalami batuk kering atau berhadak.</p>
+                                </div>
+                                <div class="list-symptoms">
+                                    <div id="imgstp-92px"></div>
+                                    <h3>Flu</h3>
+                                    <p id="desc-symptomps">Penderita akan sering bersin dan tubuh memungkinkan keringat dingin.</p>
+                                </div>
+                                <div class="list-symptoms">
+                                    <div id="imgstp-92px"></div>
+                                    <h3>Pneumonia</h3>
+                                    <p id="desc-symptomps">Penderita biasa mengalami gangguan pernapasan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="faq wrapper">
+                    <div class="container">
+                        <div class="faq section-content">
+                            <h2 style="color: #FF3372; text-align: center;">Frequently Asked Question</h2>
+                            <div class="faq-list">
+                                <button class="question">Bagaimana penularan COVID-19?</button>
+                                <div class="answer-faq">
+                                    <p id="desc-answer">Orang dapat tertular COVID-19 apabila orang tersebut berdekatan dengan orang yang sudah tertular.</p>
+                                </div>
+                                <button class="question">Bagaimana penyebaran COVID-19?</button>
+                                <div class="answer-faq">
+                                    <p id="desc-answer">COVID-19 saat ini dapat menular melalui kontak fisik antara penderita dengan orang yang belum terkena COVID-19, tetapi akhir - akhir ini WHO menyatakan COVID-19 tersebar melalui udara (airborne).</p>
+                                </div>
+                                <button class="question">Apakah vaksin COVID-19 sudah ditemukan?</button>
+                                <div class="answer-faq">
+                                    <p id="desc-answer">Untuk saat ini belum ada vaksin yang mampu membunuh COVID-19, namun ada beberapa obat yang mampu mengurangi efek dari virus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="prevention wrapper">
+                    <div class="container">
+                        <div class="prevention section-content">
+                            <h2 id="header-prevent">Mencegah COVID-19</h2>
+                            <div class="list-prevent">
+                                <div id="prevent-content">
+                                    <img id="prevent-img" src="../Corinfo/assets/images/prevention/wash.svg">
+                                    <h3>Cuci Tangan</h3>
+                                </div>
+                                <div id="prevent-content">
+                                    <img id="prevent-img" src="../Corinfo/assets/images/prevention/mask.svg">
+                                    <h3>Gunakan Masker</h3>
+                                </div>
+                                <div id="prevent-content">
+                                    <img id="prevent-img" src="../Corinfo/assets/images/prevention/medkit.svg">
+                                    <h3>Konsultasi Dokter</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <aside class="aside wrapper">
+                <div class="container">
+                    <div class="aside-content">
+                        <h1>Biodata</h1>
+                        <div class="bio-aside">
+                            <img src="../Corinfo/assets/images/IMG_da2392 s.png">
+                            <h3 style="padding-bottom: 15px;">Keterangan</h3>
+                            <table>
+                                <tr>
+                                    <th>Nama</th>
+                                    <td>Yeremia Alfa Dio</td>
+                                 </tr>
+                                 <tr>
+                                    <th>TTL</th>
+                                    <td>3 Maret 2000</td>
+                                 </tr>
+                                 <tr>
+                                    <th>Jurusan</th>
+                                    <td>Teknik Informatika</td>
+                                 </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>Aplikasi Corinfo 2020</p>
+    </footer>
+    <script src="../Corinfo/assets/script1.js"></script>
+    <script src="https://use.fontawesome.com/73c0a3bef4.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="4.8in" height="3in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4800 3000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id4)}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <rect x="584" y="424" width="706" height="706"/>
+    </clipPath>
+    <clipPath id="id1">
+     <rect x="3484" y="1710" width="706" height="706"/>
+    </clipPath>
+    <clipPath id="id2">
+     <rect x="3063" y="429" width="427" height="427"/>
+    </clipPath>
+    <clipPath id="id3">
+     <rect x="1050" y="2115" width="414" height="414"/>
+    </clipPath>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="364.591" y1="2199.46" x2="4435.41" y2="800.543">
+   <stop offset="0" style="stop-opacity:1; stop-color:#154372"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#0353A7"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2634227772576">
+   <rect class="fil0" width="4800" height="3000"/>
+   <g style="clip-path:url(#id0)">
+    <image x="584" y="424" width="706" height="706" xlink:href="Dicoding Web-Design_Images\Dicoding Web-Design_ImgID1.png"/>
+   </g>
+   <g style="clip-path:url(#id1)">
+    <image x="3484" y="1710" width="706" height="706" xlink:href="Dicoding Web-Design_Images\Dicoding Web-Design_ImgID2.png"/>
+   </g>
+   <g style="clip-path:url(#id2)">
+    <image x="3063" y="429" width="427" height="427" xlink:href="Dicoding Web-Design_Images\Dicoding Web-Design_ImgID3.png"/>
+   </g>
+   <g style="clip-path:url(#id3)">
+    <image x="1050" y="2115" width="414" height="414" xlink:href="Dicoding Web-Design_Images\Dicoding Web-Design_ImgID4.png"/>
+   </g>
+  </g>
+ </g>
+</svg>
